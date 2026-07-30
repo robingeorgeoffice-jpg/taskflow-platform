@@ -1,4 +1,4 @@
-import { SECTION_IDS1 } from "./sections";
+import { SECTION_IDS } from "./sections";
 
 export const NAV_ITEMS = [
   {
