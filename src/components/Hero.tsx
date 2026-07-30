@@ -23,7 +23,7 @@ function Hero({ hero }: HeroProps) {
       <div className="relative z-10 mx-auto max-w-6xl flex flex-col items-center gap-10  px-4 text-center ">
         <p className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4  text-xs font-medium text-white">
           <span>✨</span>
-          <span>AI-FIRST PRODUCTIVITY PLATFORM</span>
+          <span>AI-FIRST PRODUCTIVITY PLATFORMs</span>
         </p>
         <h1 className="text-white text-6xl font-bold tracking-tight max-w-4xl">{hero.title}</h1>
         <p className="text-white max-w-3xl text-xl leading-9 text-white/80 font-normal">  {hero.subTitle.map((line, index) => (
