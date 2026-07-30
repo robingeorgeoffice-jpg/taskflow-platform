@@ -23,13 +23,13 @@ export const SECTION_IDS = {
 
 function HomePage() {
   return (
-    <>
+    <div className="min-h-screen bg-slate-900">
       <Navbar />
       <Hero hero={hero} />
       <Features />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

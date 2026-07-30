@@ -2,6 +2,7 @@ import { Menu, X, CircleUserRound } from "lucide-react";
 import { useState, useEffect } from "react";
 import { NAV_ITEMS } from "../constants/navigation";
 import { SECTION_IDS } from "../constants/sections";
+import { Link } from "react-router-dom";
 
 type SectionId = (typeof SECTION_IDS)[keyof typeof SECTION_IDS];
 
@@ -79,10 +80,10 @@ function Navbar() {
 
         {/* Desktop Login */}
         <div className="hidden flex-1 justify-end md:flex">
-          <button className="flex items-center gap-3 rounded-xl border border-slate-700 bg-slate-800/60 px-4 py-2 transition-all duration-300 hover:border-blue-500 hover:bg-slate-800">
+          <Link to="/login" className="flex items-center gap-3 rounded-xl border border-slate-700 bg-slate-800/60 px-4 py-2 transition-all duration-300 hover:border-blue-500 hover:bg-slate-800">
             <CircleUserRound size={22} />
             <span className="font-semibold">Login</span>
-          </button>
+          </Link>
         </div>
 
         {/* Mobile Button */}
