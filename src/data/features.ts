@@ -2,9 +2,7 @@ import {
   Brain,
   Bot,
   Users,
-  BarChart3,
-  Bell,
-  ShieldCheck,
+
 } from "lucide-react";
 
 export const features = [
